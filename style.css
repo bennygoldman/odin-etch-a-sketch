@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+a,
+button {
+    cursor: revert;
+}
+
+ol,
+ul,
+menu {
+    list-style: none;
+}
+
+img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reset {
+    padding: .5rem;
+}
+
+.container {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
+
+.square {
+    width: 39px;
+    height: 39px;
+    background-color: rgb(156, 172, 165);
+}
