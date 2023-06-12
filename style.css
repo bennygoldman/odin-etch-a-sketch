@@ -5,7 +5,7 @@ html {
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    /* box-sizing: border-box; */
 }
 
 * {
@@ -77,13 +77,10 @@ body {
     width: 640px;
     height: 640px;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     border: 2px solid red;
 }
 
-.square {
-    width: 39px;
-    height: 39px;
+.pixel {
     background-color: rgb(156, 172, 165);
 }
